@@ -2,10 +2,10 @@ import React from 'react';
 
 class App extends React.Component {
     render(){
-        return (
+        let propsText = this.props.text;
+        return(
             <div>
-                <h1>Hello World!</h1>
-                <b>Bold</b>
+                <h1>{propsText}</h1>
             </div>
         )
     }
